@@ -23,4 +23,6 @@ int main() {
 	mhs.showNim();
 
 	mahasiswa* pMhs = &mhs; // pointer dereference
+	pMhs->nim = 3;     //array operator
+
 }
