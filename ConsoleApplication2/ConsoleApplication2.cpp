@@ -20,4 +20,7 @@ int main() {
       
 	mahasiswa& ref = mhs; // pointer reference refMhs
 	ref.nim = 2; //member access operator
+	mhs.showNim();
+
+	mahasiswa* pMhs = &mhs; // pointer dereference
 }
