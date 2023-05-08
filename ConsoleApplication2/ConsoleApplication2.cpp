@@ -16,4 +16,6 @@ void mahasiswa::showNim() {
 
 int main() {
 	mahasiswa  mhs{ 1 }; //object mahasiswa
+	mhs.showNim(); //Member access operator
+
 }
