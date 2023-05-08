@@ -33,7 +33,9 @@ void orang::setName(string pName) {
 }
 int main()
 {
-    std::cout << "Hello World!\n";
+    orang o;
+    o.setName("Joko Kumat");
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
