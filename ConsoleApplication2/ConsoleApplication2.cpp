@@ -24,5 +24,8 @@ int main() {
 
 	mahasiswa* pMhs = &mhs; // pointer dereference
 	pMhs->nim = 3;     //array operator
+	mhs.showNim();
+	system("pause");
+	return 0;
 
 }
