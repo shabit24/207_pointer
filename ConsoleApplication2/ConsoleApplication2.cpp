@@ -5,6 +5,15 @@ class mahasiswa {
 
 public:
 	int nim;
-	void showNim(); //deklaraso method
+	void showNim(); //deklarasi method
+
 
 };
+
+void mahasiswa::showNim() {
+	cout << "No Induk = " << nim << endl;
+}
+
+int main() {
+	mahasiswa  mhs{ 1 }; //object mahasiswa
+}
