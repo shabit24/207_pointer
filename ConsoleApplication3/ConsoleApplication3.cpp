@@ -24,9 +24,12 @@ void siswa::displayAll(orang& a) {
 }
 
 void siswa::setId(int pId) {
-
+    id = pId;
 }
 
+void orang::setName(string pName) {
+    name = pName;
+}
 int main()
 {
     std::cout << "Hello World!\n";
